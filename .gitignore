@@ -1,8 +1,8 @@
 out/
 build/
 .gradle/
-SpringMVC.ipr
-SpringMVC.iws
-SpringMVC.iml
+springMvcWebApp.ipr
+springMvcWebApp.iws
+springMvcWebApp.iml
 .DS_Store
 .idea/

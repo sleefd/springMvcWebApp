@@ -1,0 +1,8 @@
+out/
+build/
+.gradle/
+SpringMVC.ipr
+SpringMVC.iws
+SpringMVC.iml
+.DS_Store
+.idea/

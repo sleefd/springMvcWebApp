@@ -19,4 +19,7 @@ public class HelloControllerTest {
 		assertThat(model.get("message").toString(), is("Hello world!"));
 
 	}
+
+
+
 }

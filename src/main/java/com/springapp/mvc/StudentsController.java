@@ -11,7 +11,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class StudentsController {
 
-    private StudentModel studentModel = new StudentModel();
+
+    private final StudentModel studentModel;
+
+    public StudentsController(StudentModel studentModel) {
+        this.studentModel = studentModel;
+    }
 
     @RequestMapping(value = "/students", method = RequestMethod.GET)
     public String getAllStudent(ModelMap model) {

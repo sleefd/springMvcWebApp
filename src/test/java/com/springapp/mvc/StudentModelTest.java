@@ -11,7 +11,7 @@ import static org.junit.Assert.assertThat;
 
 
 /**
- * Created by _ashao2321919 on 14-1-5.
+ * Created by slee on 14-1-5.
  */
 public class StudentModelTest {
 
